@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Faculdade Exemplo - Ensino Superior de Qualidade</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Faculdade Exemplo oferece cursos de ensino superior em diversas áreas como Administração, Medicina, Engenharia e mais. Conheça nosso campus e corpo docente qualificado.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        header {
+            background: #004080;
+            color: white;
+        }
+        nav {
+            background: #0066cc;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        .banner {
+            background: gray;
+            height: 200px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section {
+            margin: 20px 0;
+            background: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+        }
+        footer a {
+            color: #99ccff;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Faculdade Exemplo</h1>
+    <p>Transformando conhecimento em futuro</p>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="cursos.html">Cursos de Graduação</a>
+    <a href="sobre.html">Sobre a Faculdade Exemplo</a>
+    <a href="contato.html">Fale Conosco</a>
+</nav>
+
+<div class="banner">
+    <h2>Bem-vindo à nossa instituição de ensino superior</h2>
+</div>
+
+<main>
+    <section>
+        <h2>Quem Somos</h2>
+        <p>A <strong>Faculdade Exemplo</strong> é uma instituição de ensino superior dedicada à formação de profissionais capacitados para os desafios do mercado.</p>
+        <p>Nossa missão é oferecer <strong>educação de qualidade</strong> e transformar a vida de nossos alunos por meio do conhecimento.</p>
+    </section>
+
+    <section>
+        <h2>Nossos Cursos</h2>
+        <ul>
+            <li><a href="cursos/administracao.html">Curso de Administração</a></li>
+            <li><a href="cursos/ciencia-da-computacao.html">Curso de Ciência da Computação</a></li>
+            <li><a href="cursos/direito.html">Curso de Direito</a></li>
+            <li><a href="cursos/engenharia-civil.html">Curso de Engenharia Civil</a></li>
+            <li><a href="cursos/medicina.html">Curso de Medicina</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Infraestrutura</h2>
+        <img src="campus.jpg" alt="Foto do campus da Faculdade Exemplo com biblioteca, laboratórios e áreas de convivência.">
+        <p>Nosso campus conta com biblioteca moderna, laboratórios de última geração e áreas de convivência planejadas.</p>
+        <p>Investimos constantemente em tecnologia e inovação para garantir um ambiente de aprendizado completo.</p>
+    </section>
+
+    <section>
+        <h2>Corpo Docente</h2>
+        <p>Contamos com professores altamente qualificados, mestres e doutores nas áreas de <strong>Administração, Engenharia, Direito, Medicina</strong> e <strong>Computação</strong>.</p>
+        <p>Nosso corpo docente é formado por profissionais experientes, tanto no mercado quanto na pesquisa acadêmica.</p>
+    </section>
+
+    <section>
+        <h2>Notícias Recentes</h2>
+        <article itemscope itemtype="https://schema.org/NewsArticle">
+            <h3 itemprop="headline">Semana Acadêmica 2025</h3>
+            <p itemprop="description">A Faculdade Exemplo realizou sua tradicional Semana Acadêmica com palestras, workshops e oficinas temáticas voltadas ao ensino superior.</p>
+        </article>
+        <article itemscope itemtype="https://schema.org/NewsArticle">
+            <h3 itemprop="headline">Parceria Internacional</h3>
+            <p itemprop="description">Firmamos acordo com universidades estrangeiras para intercâmbio de alunos em cursos de graduação e pós-graduação.</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Depoimentos</h2>
+        <div itemscope itemtype="https://schema.org/Review">
+            <blockquote itemprop="reviewBody">
+                "A Faculdade Exemplo mudou minha vida. Hoje atuo em uma grande empresa graças à formação recebida."
+            </blockquote>
+            <footer><span itemprop="author">- Ex-Aluno</span></footer>
+        </div>
+
+        <div itemscope itemtype="https://schema.org/Review">
+            <blockquote itemprop="reviewBody">
+                "Professores qualificados e ótima estrutura. Recomendo a todos que buscam um ensino superior sério e comprometido."
+            </blockquote>
+            <footer><span itemprop="author">- Aluna</span></footer>
+        </div>
+    </section>
+
+    <section>
+        <h2>Fale Conosco</h2>
+        <form action="obrigado.html" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Faculdade Exemplo - Todos os direitos reservados</p>
+    <p>Endereço: Rua da Educação, 123 - Cidade Exemplo</p>
+    <p>Telefone: (00) 1234-5678</p>
+    <p>
+        <a href="sitemap.xml">Mapa do Site</a> |
+        <a href="privacidade.html">Política de Privacidade</a> |
+        <a href="https://facebook.com/faculdadeexemplo" target="_blank">Facebook</a> |
+        <a href="https://instagram.com/faculdadeexemplo" target="_blank">Instagram</a>
+    </p>
+</footer>
+
+</body>
+</html>
